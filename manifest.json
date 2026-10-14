@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "FMKorea GIFs",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Pick Tenor GIFs for FMKorea comments, and show Tenor links in comments as GIFs.",
   "minimum_chrome_version": "121",
   "icons": {
