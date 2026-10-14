@@ -1,0 +1,48 @@
+/* The GIF button sits under FMKorea's comment box. The picker has its own
+   shadow root. */
+.gfk-bar {
+  clear: both;
+  margin: 4px 0;
+  text-align: left;
+}
+
+.gfk-btn {
+  display: inline-block;
+  height: 26px;
+  margin: 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  color: #444;
+  font: bold 12px/24px Arial, sans-serif;
+  cursor: pointer;
+}
+
+.gfk-btn:hover,
+.gfk-btn[aria-expanded="true"] {
+  border-color: #3c5ba9;
+  color: #3c5ba9;
+}
+
+.gfk-btn:focus-visible {
+  outline: 2px solid #3c5ba9;
+  outline-offset: 2px;
+}
+
+/* A Tenor link in a comment, shown as its GIF. */
+.gfk-gif {
+  display: inline-block;
+  vertical-align: top;
+  margin: 4px 0;
+  line-height: 0;
+}
+
+.gfk-gif img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(100%, 300px);
+  max-height: 300px;
+  border-radius: 6px;
+}
